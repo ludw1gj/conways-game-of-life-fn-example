@@ -1,7 +1,7 @@
 import { Flex, Heading, Box, Button, Spacer, chakra } from "@chakra-ui/react";
 import { Link, useLocation } from "react-router-dom";
 
-const StyledFlexHeader = chakra("form", {
+const StyledFlexHeader = chakra(Flex, {
   baseStyle: {
     minWidth: "max-content",
     alignItems: "center",
