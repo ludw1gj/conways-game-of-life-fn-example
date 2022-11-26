@@ -1,6 +1,5 @@
 import { Box } from '@chakra-ui/react'
-import { paintCanvas } from '@ludw1gj/game-of-life-fn'
-import { GameConfig } from '@ludw1gj/game-of-life-fn'
+import { paintCanvas, GameConfig } from '@ludw1gj/game-of-life-fn'
 import { useEffect, useRef } from 'react'
 import { useLocation } from 'react-router-dom'
 import { GameOfLifeForm } from './HomeView'
