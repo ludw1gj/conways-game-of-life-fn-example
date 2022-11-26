@@ -1,8 +1,8 @@
-import { Suspense } from "react";
-import { Route, Routes } from "react-router-dom";
-import GameOfLifeView from "./views/GameOfLifeView";
-import HomeView from "./views/HomeView";
-import NotFoundView from "./views/NotFoundView";
+import { Suspense } from 'react'
+import { Route, Routes } from 'react-router-dom'
+import GameOfLifeView from './views/GameOfLifeView'
+import HomeView from './views/HomeView'
+import NotFoundView from './views/NotFoundView'
 
 function AppRouter() {
   return (
@@ -13,7 +13,7 @@ function AppRouter() {
         <Route path="*" element={<NotFoundView />} />
       </Routes>
     </Suspense>
-  );
+  )
 }
 
-export default AppRouter;
+export default AppRouter

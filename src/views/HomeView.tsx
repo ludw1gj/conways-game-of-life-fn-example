@@ -1,10 +1,10 @@
-import { Container, Flex } from "@chakra-ui/react";
-import GameOfLifeForm from "../components/GameOfLifeForm";
+import { Container, Flex } from '@chakra-ui/react'
+import GameOfLifeForm from '../components/GameOfLifeForm'
 
 export interface GameOfLifeForm {
-  numRows: number;
-  numCols: number;
-  framesPerSecond: number;
+  numRows: number
+  numCols: number
+  framesPerSecond: number
 }
 
 const HomeView = () => {
@@ -14,7 +14,7 @@ const HomeView = () => {
         <GameOfLifeForm />
       </Container>
     </Flex>
-  );
-};
+  )
+}
 
-export default HomeView;
+export default HomeView

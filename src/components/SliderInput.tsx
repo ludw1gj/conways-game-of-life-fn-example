@@ -4,14 +4,14 @@ import {
   SliderTrack,
   SliderFilledTrack,
   SliderThumb,
-} from "@chakra-ui/react";
+} from '@chakra-ui/react'
 
 export interface SliderInputProps {
-  max: number;
-  min: number;
-  value: number;
-  name: string;
-  onChange: (value: number) => void;
+  max: number
+  min: number
+  value: number
+  name: string
+  onChange: (value: number) => void
 }
 
 const SliderInput: React.FC<SliderInputProps> = ({
@@ -38,7 +38,7 @@ const SliderInput: React.FC<SliderInputProps> = ({
         <SliderThumb fontSize="sm" boxSize="32px" children={value} />
       </Slider>
     </Flex>
-  );
-};
+  )
+}
 
-export default SliderInput;
+export default SliderInput
